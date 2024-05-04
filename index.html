@@ -10,7 +10,6 @@
     />
     <title>Justine Imasiku - Portfolio</title>
 
-    <!--==================== OPEN GRAPH META TAGS ===================== -->
     <meta property="og:title" content="Justine Imasiku - Portfolio" />
     <meta property="og:image" content="/assets/img/PwaImages/ios/512.png" />
     <meta
@@ -19,7 +18,6 @@
       skills, projects details and contact information."
     />
 
-    <!--==================== TWITTER META TAGS ===================== -->
     <meta name="twitter:title" content="Justine Imasiku - Portfolio" />
     <meta
       name="twitter:description"
@@ -28,15 +26,13 @@
     />
     <meta name="twitter:image" content="/assets/img/PwaImages/ios/512.png" />
 
-    <!--==================== UNICONS ====================-->
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
 
-    <!-- ====================PWA================== -->
     <link rel="manifest" href="manifest.json" />
-    <!-- ios support -->
+
     <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/32.png" />
     <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/72.png" />
     <link rel="apple-touch-icon" href="/assets/img/PwaImages/ios/100.png" />
@@ -49,7 +45,6 @@
     <meta name="apple-mobile-web-app-status-bar" content="#6E57E0" />
     <meta name="theme-color" content="#6E57E0" />
 
-    <!-- ============FAVICONS============== -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -73,20 +68,27 @@
       href="/assets/img/favicons/favicon.ico"
     />
 
-    <!--==================== SWIPER CSS ====================-->
     <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
 
-    <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script> -->
   </head>
 
   <body>
-    <!-- ===================== LOADER ==================== -->
     <div id="loading">
       <div class="loader"><span><</span><span>/></span></div>
     </div>
 
-    <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo noSelect">Justine Imasiku</a>
@@ -105,11 +107,11 @@
               </a>
             </li>
 
-            <li class="nav__item">
+            <!-- <li class="nav__item">
               <a href="#skills" class="nav__link noSelect">
                 <i class="uil uil-file-alt nav__icon"></i> Skills
               </a>
-            </li>
+            </li> -->
 
             <li class="nav__item">
               <a href="#services" class="nav__link noSelect">
@@ -133,7 +135,6 @@
         </div>
 
         <div class="nav__btns">
-          <!-- theme change button -->
           <i class="uil uil-moon change-theme" id="theme-button"></i>
 
           <div class="nav__toggle noSelect" id="nav-toggle">
@@ -143,10 +144,7 @@
       </nav>
     </header>
 
-    <!--==================== MAIN ====================-->
-
     <main class="main">
-      <!--==================== HOME ====================-->
       <section class="home section" id="home">
         <div class="home__container container grid">
           <div class="home__content grid">
@@ -165,11 +163,7 @@
               >
                 <i class="uil uil-github-alt"></i>
               </a>
-              <a
-                href="#"
-                target="_blank"
-                class="home__social-icon"
-              >
+              <a href="#" target="_blank" class="home__social-icon">
                 <i class="uil uil-telegram-alt"></i>
               </a>
             </div>
@@ -210,11 +204,11 @@
               <h3 class="home__subtitle">
                 Innovator, Farmer & Software Entrepreneur
               </h3>
-              <p class="home__description">
+              <!-- <p class="home__description">
                 I have a passion for solving problems, building intuitive,
                 user-friendly interfaces that provide an enjoyable and seamless
                 user experience.
-              </p>
+              </p> -->
               <a href="#contact" class="button button--flex">
                 Contact Me<i class="uil uil-message button__icon"></i>
               </a>
@@ -231,14 +225,12 @@
       </section>
     </main>
 
-    <!--==================== ABOUT ====================-->
-
     <section class="about section" id="about">
       <h2 class="section__title">About Me</h2>
       <span class="section__subtitle">My Introduction</span>
 
       <div class="about__container container grid">
-        <img src="./ice3.jpg" alt="" class="about__image" />
+        <img src="./assets//img/hack2.jpg" alt="" class="about__image" />
 
         <div class="about__data">
           <p class="about__description">
@@ -281,7 +273,7 @@
             </div>
           </div>
 
-          <div class="about__buttons">
+          <!-- <div class="about__buttons">
             <a
               download=""
               href="assets/pdf/JUSTINE_IMASIKU_Resume.pdf"
@@ -289,12 +281,10 @@
             >
               Download Resume<i class="uil uil-download-alt button__icon"></i
             ></a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
-
-    <!--==================== SKILLS ====================-->
 
     <section class="skills section" id="skills">
       <h2 class="section__title">Skills</h2>
@@ -383,9 +373,14 @@
       </div>
     </section>
 
-    <!--==================== QUALIFICATOIN ====================-->
+    <!-- <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div> -->
 
-    <section class="qualification section">
+    <!-- <section class="qualification section">
       <h2 class="section__title">Qualification</h2>
       <span class="section__subtitle">My personal journey</span>
 
@@ -409,13 +404,13 @@
         </div>
 
         <div class="qualification__sections">
-          <!--==================== QUALIFICATOIN CONTENT 1====================-->
+          
           <div
             class="qualification__content qualification__active"
             data-content
             id="work"
           >
-            <!--==================== QUALIFICATOIN 1====================-->
+    
             <div class="qualification__data">
               <div>
                 <h3 class="qualification__title">Neural Science</h3>
@@ -433,7 +428,6 @@
               </div>
             </div>
 
-            <!--==================== QUALIFICATOIN 2====================-->
             <div class="qualification__data">
               <div></div>
               <div>
@@ -451,7 +445,6 @@
               </div>
             </div>
 
-            <!--==================== QUALIFICATOIN 3====================-->
             <div class="qualification__data">
               <div>
                 <h3 class="qualification__title">Software Development</h3>
@@ -466,12 +459,11 @@
               </div>
             </div>
 
-            <!--==================== QUALIFICATOIN 4====================-->
             <div class="qualification__data">
               <div></div>
               <div>
                 <span class="qualification__rounder"></span>
-                <!-- <span class="qualification__line"></span> -->
+                
               </div>
               <div>
                 <h3 class="qualification__title">Software Entrepeneurship</h3>
@@ -483,9 +475,9 @@
             </div>
           </div>
 
-          <!--==================== QUALIFICATOIN CONTENT 2====================-->
+          
           <div class="qualification__content" data-content id="education">
-            <!--==================== QUALIFICATOIN 1====================-->
+            
             <div class="qualification__data">
               <div>
                 <h3 class="qualification__title">Satellite Depot Clerk</h3>
@@ -503,12 +495,11 @@
               </div>
             </div>
 
-            <!--==================== QUALIFICATOIN 2====================-->
             <div class="qualification__data">
               <div></div>
               <div>
                 <span class="qualification__rounder"></span>
-                <!-- <span class="qualification__line"></span> -->
+              
               </div>
               <div>
                 <h3 class="qualification__title">Sales Assistant</h3>
@@ -524,16 +515,13 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <!--==================== SERVICES ====================-->
+    </section> -->
 
     <section class="services section" id="services">
       <h2 class="section__title">Services</h2>
       <span class="section__subtitle">What I offer</span>
 
       <div class="services__container container grid">
-        <!--==================== SERVICE 1 ====================-->
         <div class="services__content">
           <div>
             <i class="uil uil-arrow services__icon"></i>
@@ -576,7 +564,6 @@
           </div>
         </div>
 
-        <!--==================== SERVICE 2 ====================-->
         <div class="services__content">
           <div>
             <i class="uil uil-mobile-android services__icon"></i>
@@ -618,28 +605,25 @@
       </div>
     </section>
 
-    <!--==================== PORTFOLIO ====================-->
-
     <section class="portfolio section" id="portfolio">
       <h2 class="section__title">Portfolio</h2>
       <span class="section__subtitle">Most recent work</span>
 
       <div class="portfolio__container container swiper-container">
         <div class="swiper-wrapper">
-          <!--==================== PORTFOLIO 1====================-->
           <div class="portfolio__content grid swiper-slide">
             <img
-              src="/assets/img/portfolio/unichat.PNG"
+              src="/assets/img/portfolio/nicetyfarm.png"
               alt=""
               class="portfolio__img"
             />
             <div class="portfolio__data">
-              <h3 class="portfolio__title">Chat Application</h3>
+              <h3 class="portfolio__title">Nicetyfarm</h3>
               <p class="portfolio__description">
-                Chat app created using react, firebase and chat-engine.
+                A precision farm management system for data-driven agriculture
               </p>
               <a
-                href="#"
+                href="https://www.nicetytech.tech"
                 target="_blank"
                 class="button button--flex button--small portfolio__button"
               >
@@ -649,21 +633,20 @@
             </div>
           </div>
 
-          <!--==================== PORTFOLIO 2====================-->
+          <!-- Second -->
           <div class="portfolio__content grid swiper-slide">
             <img
-              src="/assets/img/portfolio/track-service-request.PNG"
+              src="/assets/img/portfolio/swiftloop.png"
               alt=""
               class="portfolio__img"
             />
             <div class="portfolio__data">
-              <h3 class="portfolio__title">Track service request graph</h3>
+              <h3 class="portfolio__title">Swiftloop</h3>
               <p class="portfolio__description">
-                Service request graph to show various stages of bidirectional
-                progress.
+                A productivity tool to help startups manage their projects, Communications and team in one place
               </p>
               <a
-                href="#"
+                href="https://swiftloop-37fe0.web.app/"
                 target="_blank"
                 class="button button--flex button--small portfolio__button"
               >
@@ -673,21 +656,22 @@
             </div>
           </div>
 
-          <!--==================== PORTFOLIO 3====================-->
+
+          <!-- Third -->
+
           <div class="portfolio__content grid swiper-slide">
             <img
-              src="/assets/img/portfolio/stopwatch.png"
+              src="/assets/img/portfolio/nicetylab.png"
               alt=""
               class="portfolio__img"
             />
             <div class="portfolio__data">
-              <h3 class="portfolio__title">Stop-watch</h3>
+              <h3 class="portfolio__title">Nicety Lab</h3>
               <p class="portfolio__description">
-                Light weight Stop-Watch application using Angular without
-                external libraries/dependencies.
+                A 3D/VR software that provivides a fully equiped science lab to African High School & University students
               </p>
               <a
-                href="#"
+                href="https://nicety-lab.web.app"
                 target="_blank"
                 class="button button--flex button--small portfolio__button"
               >
@@ -697,21 +681,20 @@
             </div>
           </div>
 
-          <!--==================== PORTFOLIO 4====================-->
+          <!-- Second -->
           <div class="portfolio__content grid swiper-slide">
             <img
-              src="/assets/img/portfolio/file-reader.png"
+              src="/assets/img/portfolio/uzurispace.png"
               alt=""
               class="portfolio__img"
             />
             <div class="portfolio__data">
-              <h3 class="portfolio__title">File reader</h3>
+              <h3 class="portfolio__title">Uzuri</h3>
               <p class="portfolio__description">
-                Light weight file reader Angular component without external
-                libraries/dependencies.
+                A 3D/VR platform for artists to showcase their work
               </p>
               <a
-                href="#"
+                href="https://www.uzurispace.com"
                 target="_blank"
                 class="button button--flex button--small portfolio__button"
               >
@@ -720,9 +703,56 @@
               </a>
             </div>
           </div>
+
+          <div class="portfolio__content grid swiper-slide">
+            <img
+              src="/assets/img/portfolio/nicetyedu.jpeg"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">NicetyEdu</h3>
+              <p class="portfolio__description">
+                A tool for Hybrid learning that provides school management &
+                school resources as we as equip young pupils with realworld
+                skills they need
+              </p>
+              <a
+                href="https://nicetyedu-app.web.app/"
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- <div class="portfolio__content grid swiper-slide">
+            <img
+              src="/assets/img/portfolio/netagrow.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Netagrow</h3>
+              <p class="portfolio__description">
+                A tool to empower farmers for a sustainable future by increasing
+                crop yields, reducing costs, preserving forests, and fostering
+                vibrant farming communities.
+              </p>
+              <a
+                href="https://netagrow.cloud/"
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Demo
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div> -->
         </div>
 
-        <!-- Add arrows -->
         <div class="swiper-button-next">
           <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
         </div>
@@ -730,12 +760,9 @@
           <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
         </div>
 
-        <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
       </div>
     </section>
-
-    <!--==================== PROJECT IN MIND ====================-->
 
     <section class="project section">
       <div class="project__bg">
@@ -757,8 +784,6 @@
         </div>
       </div>
     </section>
-
-    <!--==================== CONTACT ME ====================-->
 
     <section class="contact section" id="contact">
       <h2 class="section__title">Contact Me</h2>
@@ -831,14 +856,14 @@
       </div>
     </section>
 
-    <!--==================== FOOTER ====================-->
-
     <footer class="footer">
       <div class="footer__bg">
         <div class="footer__container container grid">
           <div>
             <h1 class="footer__title">Justine</h1>
-            <span class="footer__subtitle">Innovator, Farmer & Software Entrepreneur</span>
+            <span class="footer__subtitle"
+              >Innovator, Farmer & Software Entrepreneur</span
+            >
           </div>
 
           <ul class="footer__links">
@@ -884,26 +909,20 @@
       </div>
     </footer>
 
-    <!--==================== SCROLL TOP ====================-->
-
     <a href="#" class="scrollup" id="scroll-up">
       <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
-    <!--==================== SWIPER JS ====================-->
     <script src="/assets/js/swiper-bundle.min.js"></script>
 
-    <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
 
-    <!-- ===================== SHOW/HIDE LOADER ==================== -->
     <script>
       window.onload = function () {
         document.getElementById("loading").style.display = "none";
       };
     </script>
 
-    <!-- =====================REGISTER SERVICE WORKER================ -->
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
