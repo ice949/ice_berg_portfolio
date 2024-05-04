@@ -1,5 +1,5 @@
-# Responsive Personal Portfolio Website 
-A great professional looking and fully responsive personal website to showcase your development portfolio.
+# Ice-berg's Portfolio Website 
+This is my professional looking and fully responsive personal website to showcase your development portfolio.
 
 ## Feature List and Screenshots
 ### [Visit Website](https://justine-imasiku.web.app/)
